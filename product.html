@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Shop - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-grid">
+      <div class="product">
+        <img src="image/tie.jpg" alt="" class="product-image">
+        <h3>Tie</h3>
+        <p>$12.75</p>
+        <button onclick="addToCart('Tie', 12.75)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="image/shirts.webp" alt="" class="product-image">
+        <h3>Shirt</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('Shirt', 29.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="image/Abaya.jpg" alt="" class="product-image">
+        <h3>Abaya</h3>
+        <p>$100.99</p>
+        <button onclick="addToCart('Abaya', 100.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="image/skirt.jpg" alt="" class="product-image">
+        <h3>Skirt</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('Skirt', 29.99)">Add to Cart</button>
+      </div>
+      </section>
+      <section class="product-grid">
+      <div class="product">
+        <img src="image/short.jpg" alt="" class="product-image">
+        <h3>Short</h3>
+        <p>$9.99</p>
+        <button onclick="addToCart('Short', 9.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="image/veil.jpg" alt="" class="product-image">
+        <h3>Veil</h3>
+        <p>$1000.00</p>
+        <button onclick="addToCart('Veil', 37.00)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="image/trouser.jpg" alt="" class="product-image">
+        <h3>Trouser</h3>
+        <p>$59.00</p>
+        <button onclick="addToCart('Trouser', 59.00)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="image/vest.webp" alt="" class="product-image">
+            <h3>Vest</h3>
+            <p>$5.75</p>
+            <button onclick="addToCart('Vest', 5.75)">Add to Cart</button>
+            </div>
+            </section>
+            <section class="product-grid">
+            <div class="product">
+              <img src="image/shoes.jpg" alt="" class="product-image">
+              <h3>Shoes</h3>
+              <p>$28.75</p>
+              <button onclick="addToCart('Shoes', 28.75)">Add to Cart</button>
+              </div>
+              <div class="product">
+                <img src="image/women shoes.jpg" alt="" class="product-image">
+                <h3>Women Shoes</h3>
+                <p>$78.45</p>
+                <button onclick="addToCart('Women Shoes', 78.45)">Add to Cart</button>
+                </div>
+                <div class="product">
+                  <img src="image/football shoes.jpg" alt="" class="product-image">
+                  <h3>Football Shoes</h3>
+                  <p>$20.00</p>
+                  <button onclick="addToCart('Football Shoes', 20.00)">Add to Cart</button>
+                  </div>
+                  <div class="product">
+                    <img src="image/slide shoes.jpg" alt="" class="product-image">
+                    <h3>Slides Shoes</h3>
+                    <p>$35.25</p>
+                    <button onclick="addToCart('Slides Shoes', 35.25)">Add to Cart</button>
+                    </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
